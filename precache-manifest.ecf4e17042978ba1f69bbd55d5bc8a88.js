@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b420f4e7609082a716a2f9199920cba",
+    "revision": "7a5825351f3f3142d3446bb0b144cd31",
     "url": "/luis-delgado-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/luis-delgado-portfolio/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "5308b6fb7fb8dd3336ef",
+    "revision": "9b1ee92472a460524370",
     "url": "/luis-delgado-portfolio/static/css/main.498d002a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/luis-delgado-portfolio/static/js/2.b533c8f2.chunk.js"
   },
   {
-    "revision": "5308b6fb7fb8dd3336ef",
-    "url": "/luis-delgado-portfolio/static/js/main.f33d625d.chunk.js"
+    "revision": "9b1ee92472a460524370",
+    "url": "/luis-delgado-portfolio/static/js/main.c2aedd9f.chunk.js"
   },
   {
     "revision": "cd909e3e1e07feaf160b",
