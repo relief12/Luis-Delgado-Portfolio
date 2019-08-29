@@ -16,16 +16,16 @@ const Toolbar = props => (
       <div className="toolbar_navigation-items">
         <ul>
           <li>
-            <a href="/">Resume</a>
+            <a href="/resume">Resume</a>
           </li>
           <li>
-            <a href="/">About me</a>
+            <a href="/aboutme">About me</a>
           </li>
           <li>
-            <a href="/">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li>
-            <a href="/">Contact me</a>
+            <a href="/contact">Contact me</a>
           </li>
         </ul>
       </div>

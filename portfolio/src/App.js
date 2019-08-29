@@ -33,9 +33,7 @@ import BackDrop from './Components/BackDrop';
        <SideDrawer show={this.state.sideDrawerOpen}/>;
       {backdrop}
       
-       <main style={{marginTop:'64px'}}>
-         <p>Content</p>
-       </main>
+       <MainPage />
       </div>
       );
     }
