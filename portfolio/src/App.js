@@ -1,70 +1,42 @@
 import React from 'react';
-import './App.css';
+
 import MainPage from './Pages/MainPage';
 import { Link } from 'react-router-dom';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
-
+import Toolbar from './Components/Toolbar';
+import SideDrawer from './Components/SideDrawer';
+import BackDrop from './Components/BackDrop';
 
    class App extends React.Component {
-    constructor(props) {
-      super(props);
-  
-      this.toggle = this.toggle.bind(this);
-      this.state = {
-        isOpen: false
-      };
-    }
-    toggle() {
-      this.setState({
-        isOpen: !this.state.isOpen
+     state ={
+      sideDrawerOpen : false
+     };
+    drawerToggleClickHandler =() => {
+      this.setState((prevState) =>{
+        return{sideDrawerOpen: !this.state.sideDrawerOpen};
       });
-    }
+    };
+
+    backdropClickHandler = () => {
+      this.setState({sideDrawerOpen:false});
+    };
     render() {
+      
+      let backdrop;
+
+      if(this.state.sideDrawerOpen){
+        
+       backdrop = <BackDrop click={this.backdropClickHandler}/>;
+      }
       return (
-        <div>
-          <Navbar className="navbar-color" dark expand="md">
-            <NavbarBrand href="/">reactstrap</NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <NavLink href="/components/">Components</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-                </NavItem>
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
-                    Options
-                  </DropdownToggle>
-                  <DropdownMenu right>
-                    <DropdownItem>
-                      Option 1
-                    </DropdownItem>
-                    <DropdownItem>
-                      Option 2
-                    </DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>
-                      Reset
-                    </DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
-              </Nav>
-            </Collapse>
-          </Navbar>
-        </div>
+        <div style={{height:'100%'}}>
+       <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
+       <SideDrawer show={this.state.sideDrawerOpen}/>;
+      {backdrop}
+      
+       <main style={{marginTop:'64px'}}>
+         <p>Content</p>
+       </main>
+      </div>
       );
     }
   }
