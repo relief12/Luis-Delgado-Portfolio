@@ -12,7 +12,7 @@ import BackDrop from './Components/BackDrop';
      };
     drawerToggleClickHandler =() => {
       this.setState((prevState) =>{
-        return{sideDrawerOpen: !this.state.sideDrawerOpen};
+        return{sideDrawerOpen: !prevState.sideDrawerOpen};
       });
     };
 
