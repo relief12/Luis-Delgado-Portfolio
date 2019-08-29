@@ -37,7 +37,7 @@
 }
 
 .toolbar_navigation-items li {
-    padding: 0 2rem;
+    padding: 0 0.5rem;
 }
 
 .toolbar_navigation-items a {
@@ -52,5 +52,19 @@
 
 .spacer {
     flex: 1;
+}
+
+@media(max-width: 768px){
+    .toolbar_navigation-items{
+        display: none;
+    }
+}
+@media(min-width: 769px){
+    .toolbar__toggle-button{
+        display: none;
+    }
+    .toolbar__logo{
+        margin-left: 0;
+    }
 }
 
