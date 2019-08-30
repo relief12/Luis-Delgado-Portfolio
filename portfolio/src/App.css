@@ -1,17 +1,44 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .avatar-img{
-  height: 240px;
-  margin-top: 5em;
+  height: 220px;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
   alt: "Luis Delgado"
+}
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+.banner-text h1{
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  align-content: center;
+
+}
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
 }
 
 .landing-container{
@@ -21,6 +48,12 @@
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f44336, #2196f3);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 55px;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .App-header {
@@ -32,9 +65,5 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
