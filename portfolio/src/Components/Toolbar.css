@@ -3,6 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
+   
     height: 56px;
     background: #2196f3;
     /* fallback for old browsers */
@@ -14,6 +15,7 @@
 
 .toolbar__navigation {
     display: flex;
+  
     align-items: center;
     height: 100%;
     padding: 0 1rem;
@@ -21,6 +23,7 @@
 
 .toolbar__logo {
     margin-left: 1rem;
+    
 }
 
 .toolbar__logo a {

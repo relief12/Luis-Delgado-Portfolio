@@ -8,6 +8,20 @@
   pointer-events: none;
 }
 
+.avatar-img{
+  height: 250px;
+  margin-top: 5em;
+}
+
+.landing-container{
+  background: #2196f3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f44336, #2196f3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f44336, #2196f3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
