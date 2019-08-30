@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import '../App.css'
+import Avatar from "../Images/avatar.svg"
 class LandingPage extends Component {
   render() {
     return (
@@ -8,9 +9,9 @@ class LandingPage extends Component {
        
         <Container fluid>
           <Row  >
-            <Col md={12}>
-              <img className="avatar-img" 
-              src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=UpDown&mouthType=Smile&skinColor=Light"/>
+            <Col md={8}>
+              <img alt="Luis Delgado" className="avatar-img" 
+              src={Avatar}/>
              
             </Col>
             
