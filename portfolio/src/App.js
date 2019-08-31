@@ -1,7 +1,7 @@
 import React from 'react';
 
 import MainPage from './Pages/MainPage';
-import { Link } from 'react-router-dom';
+
 import Toolbar from './Components/Toolbar';
 import SideDrawer from './Components/SideDrawer';
 import BackDrop from './Components/BackDrop';

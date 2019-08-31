@@ -1,5 +1,6 @@
 import React from 'react'
 import DrawerToggleButton from '../Components/DrawerToggleButton';
+import { Link } from 'react-router-dom';
 import './Toolbar.css'
 
 
@@ -16,19 +17,20 @@ const Toolbar = props => (
       <div className="toolbar_navigation-items">
         <ul>
         <li>
-            <a href="/">Home</a>
+            <Link to="/luis-delgado-portfolio">Home</Link>
+
           </li>
           <li>
-            <a href="luis-delgado-portfolio/resume">Resume</a>
+            <Link to="/luis-delgado-portfolio/resume">Resume</Link>
           </li>
           <li>
-            <a href="luis-delgado-portfolio/aboutme">About me</a>
+            <Link to="/luis-delgado-portfolio/aboutme">About me</Link>
           </li>
           <li>
-            <a href="luis-delgado-portfolio/projects">Projects</a>
+            <Link to="/luis-delgado-portfolio/projects">Projects</Link>
           </li>
           <li>
-            <a href="luis-delgado-portfolio/contact">Contact Me</a>
+            <Link to="/luis-delgado-portfolio/contact">Contact Me</Link>
           </li>
         </ul>
       </div>
