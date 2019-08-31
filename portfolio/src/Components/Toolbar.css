@@ -4,12 +4,10 @@
     left: 0;
     width: 100%;
     height: 56px;
-    background: #2196f3;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f44336, #2196f3);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f44336, #2196f3);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .toolbar__navigation {
@@ -21,7 +19,7 @@
 
 .toolbar__logo {
     margin-left: 1rem;
-    
+
 }
 
 .toolbar__logo a {
@@ -55,17 +53,18 @@
     flex: 1;
 }
 
-@media(max-width: 768px){
-    .toolbar_navigation-items{
+@media(max-width: 768px) {
+    .toolbar_navigation-items {
         display: none;
-    }
-}
-@media(min-width: 769px){
-    .toolbar__toggle-button{
-        display: none;
-    }
-    .toolbar__logo{
-        margin-left: 0;
     }
 }
 
+@media(min-width: 769px) {
+    .toolbar__toggle-button {
+        display: none;
+    }
+
+    .toolbar__logo {
+        margin-left: 0;
+    }
+}
