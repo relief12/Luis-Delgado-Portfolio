@@ -21,15 +21,15 @@ class LandingPage extends Component {
 
               <div className="social-links">
                 {/*Linkedin*/}
-                <a href="http://google.com" target="_blank" rel="noopener noreferrer"> 
+                <a href="https://www.linkedin.com/in/luis-delgado-891841120/" target="_blank" rel="noopener noreferrer"> 
                   <i className="fa fa-linkedin-square"  aria-hidden="true"/>
                 </a>
                  {/*Github*/}
-                 <a href="http://google.com" target="_blank" rel="noopener noreferrer"> 
+                 <a href="https://github.com/relief12" target="_blank" rel="noopener noreferrer"> 
                   <i className="fa fa-github-square"  aria-hidden="true"/>
                 </a>
                  {/*Freecodecamp*/}
-                 <a href="http://google.com" target="_blank" rel="noopener noreferrer"> 
+                 <a href="https://www.freecodecamp.org/forum/u/relze12/summary" target="_blank" rel="noopener noreferrer"> 
                   <i className="fa fa-free-code-camp"  aria-hidden="true"/>
                 </a>
 
