@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/luis-delgado-portfolio/static/css/main.ee47fae8.chunk.css",
-    "main.js": "/luis-delgado-portfolio/static/js/main.af322885.chunk.js",
-    "main.js.map": "/luis-delgado-portfolio/static/js/main.af322885.chunk.js.map",
+    "main.css": "/luis-delgado-portfolio/static/css/main.145533b2.chunk.css",
+    "main.js": "/luis-delgado-portfolio/static/js/main.ba030752.chunk.js",
+    "main.js.map": "/luis-delgado-portfolio/static/js/main.ba030752.chunk.js.map",
     "runtime~main.js": "/luis-delgado-portfolio/static/js/runtime~main.f79a4f33.js",
     "runtime~main.js.map": "/luis-delgado-portfolio/static/js/runtime~main.f79a4f33.js.map",
     "static/css/2.266e55a5.chunk.css": "/luis-delgado-portfolio/static/css/2.266e55a5.chunk.css",
     "static/js/2.80e1af7a.chunk.js": "/luis-delgado-portfolio/static/js/2.80e1af7a.chunk.js",
     "static/js/2.80e1af7a.chunk.js.map": "/luis-delgado-portfolio/static/js/2.80e1af7a.chunk.js.map",
     "index.html": "/luis-delgado-portfolio/index.html",
-    "precache-manifest.2887f62636ba6edf0fb05ecbd6461f4d.js": "/luis-delgado-portfolio/precache-manifest.2887f62636ba6edf0fb05ecbd6461f4d.js",
+    "precache-manifest.389151dcd1618514bb3617c23c25f282.js": "/luis-delgado-portfolio/precache-manifest.389151dcd1618514bb3617c23c25f282.js",
     "service-worker.js": "/luis-delgado-portfolio/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/luis-delgado-portfolio/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.ee47fae8.chunk.css.map": "/luis-delgado-portfolio/static/css/main.ee47fae8.chunk.css.map"
+    "static/css/main.145533b2.chunk.css.map": "/luis-delgado-portfolio/static/css/main.145533b2.chunk.css.map"
   }
 }
