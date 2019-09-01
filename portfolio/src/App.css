@@ -1,51 +1,57 @@
-.avatar-img{
+.avatar-img {
   height: 260px;
   margin-top: 3em;
   margin-bottom: 0.2em;
   alt: "Luis Delgado"
 }
-.social-links{
+
+.social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 50%;
   margin: auto;
 }
-.social-links i{
+
+.social-links i {
   color: white;
   font-size: 9em;
   padding: 8px;
 }
-.banner-text{
+
+.banner-text {
   background-color: black;
   opacity: .8;
   width: 65%;
   margin: auto;
   border-radius: 10px;
-  
+
 }
-.banner-text h1{
+
+.banner-text h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
   align-content: center;
 
 }
-.banner-text hr{
+
+.banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
-.banner-text p{
+
+.banner-text p {
   color: white;
   font-size: 30px;
   padding: 1em;
 }
 
-.landing-container{
-  background: #360033;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+.landing-container {
+  background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
   position: fixed;
   top: 55px;
@@ -65,48 +71,52 @@
   color: white;
 }
 
-@media(max-width: 768px){
-  .avatar-img{
+@media(max-width: 768px) {
+  .avatar-img {
     height: 220px;
     margin-top: 3em;
     margin-bottom: 0.2em;
     alt: "Luis Delgado"
   }
-  .landing-container{
+
+  .landing-container {
     position: fixed;
     top: 50px;
     left: 0;
     height: 100%;
     width: 100%;
   }
-  .banner-text{
+
+  .banner-text {
     width: 100%;
     margin: auto;
-  
-    
+
+
   }
-  .banner-text h1{
+
+  .banner-text h1 {
     font-size: 30px;
     font-weight: bold;
     color: white;
     align-content: center;
-  
+
   }
-  .social-links{
+
+  .social-links {
     display: flex;
     justify-content: center;
     width: 50%;
     margin: auto;
   }
-  .social-links i{
+
+  .social-links i {
     color: white;
     font-size: 4em;
     padding: 7px;
   }
-  .banner-text p{
+
+  .banner-text p {
     font-size: 25px;
-   
+
   }
 }
-
-
