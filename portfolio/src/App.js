@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactGA from 'react-ga';
+
 import MainPage from './Pages/MainPage';
 
 import Toolbar from './Components/Toolbar';

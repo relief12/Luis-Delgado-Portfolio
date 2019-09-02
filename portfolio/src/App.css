@@ -48,9 +48,12 @@
 }
 
 .landing-container {
-  background: #ED213A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ED213A;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291E, #ED213A);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;
   position: fixed;
@@ -71,7 +74,127 @@ background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, F
   color: white;
 }
 
+.contact-body {
+  margin: auto;
+  top: 56px;
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-container {
+  text-align: center;
+  justify-content: center;
+
+  height: 700px;
+  background: white;
+  color: black;
+
+  margin-bottom: 20px;
+}
+
+.contact-container h2 {
+  font-family: 'Anton', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.contact-container p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  width: 75%;
+  margin: auto;
+  padding-top: 1em;
+}
+
+.contact-container hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list {
+  margin-top: 40px;
+
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 1rem;
+ 
+
+}
+
+.contact-list h4 {
+  font-family: 'Anton';
+  padding-left: 1rem;
+  display: inline;
+  font-size: 25px;
+
+}
+
+.contact-container img {
+  height: 212px;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+.info-list {
+  width: 60%;
+  margin-left: 7rem;
+  border: 4px solid;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+
 @media(max-width: 768px) {
+  .contact-container img {
+    height: 100px;
+  }
+  .contact-container p {
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    margin: auto;
+    padding-top:0;
+    font-size: 13px;
+  }
+  .contact-container h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    
+  }
+  .contact-list h4 {
+    font-size: 12px;
+   
+   
+  }
+
+  
+  .contact-list i {
+    font-size: 18px;
+    display: inline;
+    padding-right: 0;
+    
+  }
+
+  .info-list {
+    width: 100%;
+    margin-left: 0.5rem;
+    border: 3px solid;
+    border-radius: 10px;
+  }
+
+
   .avatar-img {
     height: 220px;
     margin-top: 3em;
