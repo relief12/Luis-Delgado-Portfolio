@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/luis-delgado-portfolio/static/css/main.3ce7313f.chunk.css",
+    "main.css": "/luis-delgado-portfolio/static/css/main.91f9c4c9.chunk.css",
     "main.js": "/luis-delgado-portfolio/static/js/main.4b3c29d2.chunk.js",
     "main.js.map": "/luis-delgado-portfolio/static/js/main.4b3c29d2.chunk.js.map",
     "runtime~main.js": "/luis-delgado-portfolio/static/js/runtime~main.f79a4f33.js",
@@ -9,10 +9,10 @@
     "static/js/2.d21c8404.chunk.js": "/luis-delgado-portfolio/static/js/2.d21c8404.chunk.js",
     "static/js/2.d21c8404.chunk.js.map": "/luis-delgado-portfolio/static/js/2.d21c8404.chunk.js.map",
     "index.html": "/luis-delgado-portfolio/index.html",
-    "precache-manifest.ec93537201823712fd1df74d7163f66a.js": "/luis-delgado-portfolio/precache-manifest.ec93537201823712fd1df74d7163f66a.js",
+    "precache-manifest.8390883b15c6cf031b61bfe85d250a24.js": "/luis-delgado-portfolio/precache-manifest.8390883b15c6cf031b61bfe85d250a24.js",
     "service-worker.js": "/luis-delgado-portfolio/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/luis-delgado-portfolio/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.3ce7313f.chunk.css.map": "/luis-delgado-portfolio/static/css/main.3ce7313f.chunk.css.map",
+    "static/css/main.91f9c4c9.chunk.css.map": "/luis-delgado-portfolio/static/css/main.91f9c4c9.chunk.css.map",
     "static/media/relze.PNG": "/luis-delgado-portfolio/static/media/relze.3b9667be.PNG"
   }
 }
