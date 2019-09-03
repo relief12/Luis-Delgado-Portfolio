@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/luis-delgado-portfolio/precache-manifest.f9fa366b3c18952c3828b2e349f46b5f.js"
+  "/luis-delgado-portfolio/precache-manifest.c7b830d338d92d1f2c6eb24131fcbc72.js"
 );
 
 self.addEventListener('message', (event) => {
