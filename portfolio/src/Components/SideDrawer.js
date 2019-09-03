@@ -13,29 +13,29 @@ const sideDrawer = props => {
      
       <ul>
         <li>
-        <i className="fa fa-home" style={{fontSize:"35px", marginLeft:"20px"}} aria-hidden="true">
+        <i className="fa fa-home" style={{fontSize:"25px", marginLeft:"20px"}} aria-hidden="true">
           <a href="/luis-delgado-portfolio">Home</a>
           </i>
         </li>
 
         <li>
-          <i className="fas fa-file-pdf" style={{fontSize:"35px", marginLeft:"20px"}} aria-hidden="true">
+          <i className="fas fa-file-pdf" style={{fontSize:"25px", marginLeft:"20px"}} aria-hidden="true">
             <a href="/luis-delgado-portfolio/resume">Resume</a>
           </i>
         </li>
 
         <li>
-        <i className="fa fa-address-card" style={{fontSize:"35px",  marginLeft:"9px"}} aria-hidden="true">
+        <i className="fa fa-address-card" style={{fontSize:"25px",  marginLeft:"9px"}} aria-hidden="true">
         <a href="/luis-delgado-portfolio/aboutme">About me</a>
           </i>
         </li>
         <li>
-        <i className="fa fa-code" style={{fontSize:"35px",  marginLeft:"10px"}} aria-hidden="true">
+        <i className="fa fa-code" style={{fontSize:"25px",  marginLeft:"10px"}} aria-hidden="true">
           <a href="/luis-delgado-portfolio/projects">Projects</a>
           </i>
         </li>
         <li>
-        <i className="fa fa-envelope" style={{fontSize:"35px",  marginLeft:"10px"}} aria-hidden="true">
+        <i className="fa fa-envelope" style={{fontSize:"25px",  marginLeft:"10px"}} aria-hidden="true">
           <a href="/luis-delgado-portfolio/contact">Contact Me</a>
           </i>
         </li>

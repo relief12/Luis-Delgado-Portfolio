@@ -13,7 +13,7 @@ class contactPage extends Component {
               <img       src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/720/ninja-background-512.png"  ></img>
               <p>
                 * The easiest way to contact me is by email and I always reply within hours.<br/>
-                * If you need to call me please me aware that I'm usually busy during the day either at school
+                * If you need to call me please be aware that I'm usually busy during the day either at school
                 or work so it could be difficult for me  to answer. <br/>
                 * Leave me a voicemail if necessary or add me on discord or skype I'm on my laptop all day.<br/><br/>
                 Thanks!
@@ -26,7 +26,7 @@ class contactPage extends Component {
               <hr />
               <div className="contact-list">
               <ListGroup  className="info-list">
-                    <ListGroupItem style={{borderBottom:'4px solid'}}>
+                    <ListGroupItem style={{borderBottom:'4px solid', paddingLeft:"1.2rem"}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/><h4>732-474-8064 </h4>
                     </ListGroupItem>
                     <ListGroupItem style={{borderBottom:'4px solid'}}>
