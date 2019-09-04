@@ -9,7 +9,7 @@ class LandingPage extends Component {
        
         <Container fluid>
           <Row  >
-            <Col md={12}>
+            <Col col={12}>
               <img alt="Luis Delgado" className="avatar-img" style={{opacity:.8}} 
               src={Avatar}/><br/>
 

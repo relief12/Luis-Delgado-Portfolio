@@ -74,9 +74,10 @@
   color: white;
 }
 
+/*Contact Page CSS*/
 .contact-body {
   margin: auto;
-  top: 56px;
+  top: 40px;
 
   position: fixed;
   width: 100%;
@@ -115,6 +116,7 @@
   border-top: 5px dotted black;
   width: 50%;
   margin: auto;
+  
 }
 
 .contact-list {
@@ -152,13 +154,18 @@
 }
 
 
-
-
+/*Resume Page CSS*/
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding-top: 2rem;
+}
 
 
 @media(max-width: 768px) {
   .contact-container img {
     height: 100px;
+    
   }
   .contact-container p {
     font-family: 'Oxygen', sans-serif;
@@ -170,7 +177,7 @@
   .contact-container h2 {
     font-family: 'Anton', sans-serif;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     
   }
   .contact-list h4 {
@@ -188,8 +195,8 @@
   }
 
   .info-list {
-    width: 100%;
-    margin-left: 0.5rem;
+    width: 90%;
+    margin-left: 0rem;
     border: 3px solid;
     border-radius: 10px;
   }
@@ -199,7 +206,7 @@
     height: 220px;
     margin-top: 3em;
     margin-bottom: 0.2em;
-    alt: "Luis Delgado"
+    alt: "Luis Delgado";
   }
 
   .landing-container {

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import profilepic from "../Images/relze.PNG";
 import { ListGroup, ListGroupItem } from "reactstrap";
 class contactPage extends Component {
   render() {
@@ -8,9 +7,9 @@ class contactPage extends Component {
       <div className="contact-body">
         <Container style={{ width: "95%" }} className="contact-container">
           <Row>
-            <Col xs="6">
+            <Col col={6}>
               <h2>Luis Delgado</h2>
-              <img       src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/720/ninja-background-512.png"  ></img>
+              <img src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/720/ninja-background-512.png"  ></img>
               <p>
                 * The easiest way to contact me is by email and I always reply within hours.<br/>
                 * If you need to call me please be aware that I'm usually busy during the day either at school
@@ -21,7 +20,7 @@ class contactPage extends Component {
               </p>
             </Col>
 
-            <Col xs="6">
+            <Col  col={6}>
               <h2>Contact Me</h2>
               <hr />
               <div className="contact-list">
