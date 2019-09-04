@@ -8,7 +8,7 @@ const sideDrawer = props => {
   }
   return (
     <nav className={drawerClasses}>
-      <br/><center> <img src={profilepic} style={{height:"90px", width:"90px", borderRadius:"50%"}}></img><h4>Luis Delgado</h4></center>
+      <br/><center> <img src={profilepic} alt="Luis Delgado" style={{height:"90px", width:"90px", borderRadius:"50%"}}></img><h4>Luis Delgado</h4></center>
      
       <ul>
         <li>

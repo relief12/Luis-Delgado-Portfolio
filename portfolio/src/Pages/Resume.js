@@ -19,7 +19,7 @@ class Resume extends Component {
                 />
               </div>
               <h2 style={{ paddingTop: "1em" }}>Luis Delgado</h2>
-              <h4 style={{ color: "grey" }}>Programmer</h4>
+              <h4 style={{ color: "grey" }}>Computer Engineer</h4>
               <hr
                 align="left"
                 style={{
@@ -28,14 +28,12 @@ class Resume extends Component {
                   right: "0"
                 }}
               />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged
-              </p>
+              <h5 style={{ fontStyle: "italic" }}>
+                “To see the world, things dangerous to come to, to see behind
+                walls, draw closer, to find each other, and to feel. That is the
+                purpose of life.”
+              </h5>
+              <p>- James Thurber, The Secret Life of Walter Mitty</p>
 
               <h5>Activities</h5>
               <hr
@@ -46,14 +44,24 @@ class Resume extends Component {
                   right: "0"
                 }}
               />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged
+              <p style={{ fontWeight: "bold" }}>
+                PARTICIPANT | UPS HACKATHON | JULY 2018
               </p>
+              <p>· Participated in the different sponsored UPS challenges. </p>
+              <p>
+                · Team UPSociety and I developed a mobile application for UPS
+                hubs during peak season
+              </p>
+
+              <p style={{ fontWeight: "bold" }}>
+                PARTICIPANT | UPS HACKATHON | JULY 2019
+              </p>
+              <p>· Won the “What’s in the Box Challenge” </p>
+              <p>
+                · Team YEET and I were able to get emails from users using the
+                Gmail API to scrape shipping information
+              </p>
+
               <h5>Courses</h5>
               <hr
                 align="left"
@@ -63,14 +71,12 @@ class Resume extends Component {
                   right: "0"
                 }}
               />
+              <p>· Digital Data Communication</p>
+              <p>· Data Structures</p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged
+                · Computer Organization, Architecture, and Assembly Language
               </p>
+              <p>· Computer Communications Networks</p>
               <h5>Organizations</h5>
               <hr
                 align="left"
@@ -80,59 +86,55 @@ class Resume extends Component {
                   right: "0"
                 }}
               />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged
-              </p>
+              <p>· Society of Hispanic Professional Engineers (SHPE)</p>
+              <p>· Institute of Electrical and Electronics Engineers (IEEE)</p>
             </Col>
 
             <Col className="resume-right-col" col={8}>
               <h2>Education</h2>
 
               <Education
-                startYear={2015}
+                startYear={2014}
                 endYear={2017}
                 schoolName="Union County College"
-                schoolDescription=" Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry."/>
+                schoolDescription="Associate of Science in Computer Science"
+              />
               <Education
-                startYear={2015}
-                endYear={2017}
-                schoolName="Union County College"
-                schoolDescription=" Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry."/>
-              <hr style={{borderTop:'3px solid #e22947'}}/>
+                startYear={2017}
+                endYear={2020}
+                schoolName="New Jersey Institute of Technology"
+                schoolDescription="Bachelors of Science in Computer Engineering"
+              />
+              <hr style={{ borderTop: "3px solid #e22947" }} />
               <h2>Experience</h2>
               <Experience
-               startYear={2014}
-               endYear={2019}
-               jobName="Seasons 52"
-               jobDescription=" Lorem Ipsum is simply dummy text of the printing and typesetting
-             industry."/>
+                startYear="June 2018"
+                endYear="August 2018"
+                jobName="UPS"
+                jobDescription="Summer intern in the Application Developing team. 
+                Developed the cross-platform UPS Observer mobile app.
+                Worked on the backend code for the middleware connection between mobile apps and databases."         
+                
+              />
               <Experience
-               startYear={2014}
-               endYear={2019}
-               jobName="Seasons 52"
-               jobDescription=" Lorem Ipsum is simply dummy text of the printing and typesetting
-             industry."/>
-              <hr style={{borderTop:'3px solid #e22947'}}/>
+                startYear="June 2019"
+                endYear="August 2019"
+                jobName="UPS"
+                jobDescription="Summer intern in the Application Developing team.
+                Developed the Progressive Web Application Accountability in Disaster Event (AIDE)
+                Worked on frontend with a modular design using ReactJS and Bootstrap "
+              />
+              <hr style={{ borderTop: "3px solid #e22947" }} />
               <h2>Skills</h2>
-              <Skills
-              skill="Javascript"
-              progress={100}/>
-              <Skills
-              skill="Javascript"
-              progress={80}/>
-              <Skills
-              skill="Javascript"
-              progress={70}/>
-              <Skills
-              skill="Javascript"
-              progress={50}/>
+              <Skills skill="Javascript" progress={85} />
+              <Skills skill="CSS" progress={85} />
+              <Skills skill="HTML" progress={100} />
+              <Skills skill="C#" progress={90} />
+              <Skills skill="C++" progress={85} />
+              <Skills skill="Python" progress={70} />
+              <Skills skill="SQL" progress={70} />
+              <Skills skill="MongoDB" progress={60} />
+              <Skills skill="NodeJS" progress={80} />
             </Col>
           </Row>
         </Container>

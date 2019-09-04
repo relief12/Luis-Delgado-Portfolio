@@ -12,7 +12,7 @@ class Skills extends Component {
               <Progress
                 style={{ margin: "auto", width: "75%" }}
                 value={this.props.progress}
-                color="success"
+                color="danger"
               />
             </div>
           </Col>

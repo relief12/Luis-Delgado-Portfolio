@@ -9,7 +9,8 @@ class contactPage extends Component {
           <Row>
             <Col col={6}>
               <h2>Luis Delgado</h2>
-              <img src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/720/ninja-background-512.png"  ></img>
+              <img src="https://cdn1.iconfinder.com/data/icons/ninja-things-1/720/ninja-background-512.png" alt="Code Ninja" ></img>
+              
               <p>
                 * The easiest way to contact me is by email and I always reply within hours.<br/>
                 * If you need to call me please be aware that I'm usually busy during the day either at school
@@ -37,10 +38,11 @@ class contactPage extends Component {
                     <ListGroupItem style={{ paddingRight:"4em"}}>
                     <i className="fab fa-skype" aria-hidden="true"/><h4>relief.light </h4>
                     </ListGroupItem>
-                   
-                
-                   
+            
               </ListGroup>
+
+              <h5 style={{fontStyle:'italic', marginTop:'1rem'}}>“The way to succeed is to double your failure rate.”</h5>
+              <p>- Thomas J. Watson, pioneer in the development computing equipment for IBM</p>
               </div>
             </Col>
           </Row>
