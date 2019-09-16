@@ -4,6 +4,12 @@
   margin-bottom: 0.2em;
   alt: "Luis Delgado"
 }
+.Fsociety-img {
+  height: 260px;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+  alt: "Luis Delgado"
+}
 
 .social-links {
   display: flex;
@@ -86,6 +92,39 @@
   padding-top: 2em;
 }
 
+/*About me Page CSS*/
+.aboutme-body {
+  margin: auto;
+  top: 55px;
+  background: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  text-align: center;
+}
+.aboutme-container {
+  text-align: center;
+  justify-content: center;
+
+  height: 700px;
+  background: white;
+  color: black;
+
+  margin-bottom: 20px;
+}
+
+.aboutme-container p{
+  font-family: 'Oxygen', sans-serif;
+
+ 
+
+  
+  padding-top: 1em;
+}
+
+
 .contact-container {
   text-align: center;
   justify-content: center;
@@ -163,6 +202,14 @@
 
 
 @media(max-width: 768px) {
+
+  .Fsociety-img {
+    height: 180px;
+    width: 80%;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    alt: "Luis Delgado"
+  }
   .contact-container img {
     height: 100px;
     
