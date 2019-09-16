@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/luis-delgado-portfolio/static/css/main.0123393d.chunk.css",
-    "main.js": "/luis-delgado-portfolio/static/js/main.9da8e902.chunk.js",
-    "main.js.map": "/luis-delgado-portfolio/static/js/main.9da8e902.chunk.js.map",
+    "main.css": "/luis-delgado-portfolio/static/css/main.7f843ff1.chunk.css",
+    "main.js": "/luis-delgado-portfolio/static/js/main.3c5a80f8.chunk.js",
+    "main.js.map": "/luis-delgado-portfolio/static/js/main.3c5a80f8.chunk.js.map",
     "runtime~main.js": "/luis-delgado-portfolio/static/js/runtime~main.f79a4f33.js",
     "runtime~main.js.map": "/luis-delgado-portfolio/static/js/runtime~main.f79a4f33.js.map",
     "static/css/2.266e55a5.chunk.css": "/luis-delgado-portfolio/static/css/2.266e55a5.chunk.css",
-    "static/js/2.6f4a3543.chunk.js": "/luis-delgado-portfolio/static/js/2.6f4a3543.chunk.js",
-    "static/js/2.6f4a3543.chunk.js.map": "/luis-delgado-portfolio/static/js/2.6f4a3543.chunk.js.map",
+    "static/js/2.981dd980.chunk.js": "/luis-delgado-portfolio/static/js/2.981dd980.chunk.js",
+    "static/js/2.981dd980.chunk.js.map": "/luis-delgado-portfolio/static/js/2.981dd980.chunk.js.map",
     "index.html": "/luis-delgado-portfolio/index.html",
-    "precache-manifest.bf02df0526774c8bd346c0e4ccf293a0.js": "/luis-delgado-portfolio/precache-manifest.bf02df0526774c8bd346c0e4ccf293a0.js",
+    "precache-manifest.e118c5d158be5c207da4745b4eb6b7b6.js": "/luis-delgado-portfolio/precache-manifest.e118c5d158be5c207da4745b4eb6b7b6.js",
     "service-worker.js": "/luis-delgado-portfolio/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/luis-delgado-portfolio/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.0123393d.chunk.css.map": "/luis-delgado-portfolio/static/css/main.0123393d.chunk.css.map",
+    "static/css/main.7f843ff1.chunk.css.map": "/luis-delgado-portfolio/static/css/main.7f843ff1.chunk.css.map",
+    "static/media/fsociety.PNG": "/luis-delgado-portfolio/static/media/fsociety.81f1089f.PNG",
     "static/media/relze.PNG": "/luis-delgado-portfolio/static/media/relze.3b9667be.PNG"
   }
 }
